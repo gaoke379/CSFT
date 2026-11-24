@@ -1,0 +1,37 @@
+# Path to the 1st input image
+# img1_fullpath = ../../data/rit_rgb0000.jpg
+# img1_fullpath = ../../data/boat_img1.png
+# img1_fullpath = ../../data/leuven_img1.png
+# img1_fullpath = /home/kegao/Files/Research/Dataset/HPatches/hpatches-sequences-release/i_ajuntament/1.ppm
+img1_fullpath = /home/kegao/Files/Research/Dataset/FM-Bench/Dataset/KITTI/06/Images/00000002.jpg
+
+# Path to the 2nd input image
+# img2_fullpath = ../../data/rit_rgb0009.jpg
+# img2_fullpath = ../../data/boat_img3.png
+# img2_fullpath = ../../data/leuven_img6.png
+# img2_fullpath = /home/kegao/Files/Research/Dataset/HPatches/hpatches-sequences-release/i_ajuntament/4.ppm
+img2_fullpath = /home/kegao/Files/Research/Dataset/FM-Bench/Dataset/KITTI/06/Images/00000003.jpg
+
+# Path to the output folder
+out_path = ./
+
+# Number of keypoints to detect per image
+n_keypoints = 1800
+
+# CSFT descriptor type (Upright or Standard). Upright-CSFT disables rotation invariance
+csft_desc_type = Standard
+
+# Flag for exporting feature keypoints to text files (yes:1; no:0)
+flag_export_keypts = 0
+
+# Flag for exporting feature descriptors to text files (yes:1; no:0)
+flag_export_desc = 0
+
+# Flag for exporting feature matches to text files (yes:1; no:0)
+flag_export_match = 0
+
+# Flag for visualizing feature keypoints on the input images (yes:1; no:0)
+flag_draw_keypts_img = 1
+
+# Flag for visualizing feature matches on the input images (yes:1; no:0)
+flag_draw_match_img = 1
