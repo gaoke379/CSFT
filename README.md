@@ -1,15 +1,33 @@
-# Compressed Spatial Frequency Transfrom (CSFT)
+# Compressed Spatial Frequency Transform (CSFT)
 
 
 **Copyright (C) 2018-2022. K. Gao, H. AliAkbarpour, K. Palaniappan and Curators of the University of Missouri, a public corporation.**   
 **All Rights Reserved.**  
 
 *For more information, contact:  
-Ke Gao, kegao@mail.missouri.edu  
+Ke Gao, gaoke379@gmail.com  
 Prof. K. Palaniappan, palaniappank@missouri.edu  
 226 Naka Hall  
 University of Missouri-Columbia  
 Columbia, MO 65211*  
+
+
+## Patent
+
+This repository contains code associated with the following issued U.S. patent:
+
+**Gao, K., Akbarpour, H. A., and Palaniappan, K. “Compressed Spatial Frequency Transform for Feature Tracking, Image Matching, Search, and Retrieval.” U.S. Patent No. 12,755,509 B2, issued October 6, 2026.**
+
+- **Assignee:** The Curators of the University of Missouri, Columbia, MO (US)
+- **Application No.:** 18/300,182, filed April 13, 2023, claiming priority to Provisional Application No. 63/330,633, filed April 13, 2022
+- **Publication No.:** US 2023/0334821 A1, published October 19, 2023
+- **Claims:** 20
+
+The patent covers a method and system for feature tracking and image matching using CSFT descriptors: detecting key points and associated patches in an image, transforming those patches from the spatial domain to the frequency domain using a Discrete Cosine Transform (DCT) or Discrete Fourier Transform (DFT), encoding illumination, rotation, scale, and other geometric transformations into a CSFT / DCTF descriptor, and matching a second image to the first image using those descriptors.
+
+This invention was made with government support under W911NF-18-2-0285 and W911NF-19-1-0181, awarded by the Army Research Laboratory–Army Research Office. The government has certain rights in the invention.
+
+Related publication: K. Gao, H. Ali Akbarpour, et al., “DCT-Based Local Descriptor for Robust Matching and Feature Tracking in Wide Area Motion Imagery,” *IEEE Geoscience and Remote Sensing Letters*, vol. 18, no. 8, pp. 1441–1445, Aug. 2021.
 
 
 ## Description
